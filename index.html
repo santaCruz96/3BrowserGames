@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <div class="top center">
+        <h1 class="top__title">Добро пожаловать на мой сайт !</h1>
+        <p class="top__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <b>поехали</b> и <b>приступай</b></p>
+        <a class="top__link" href="#">Поехали!</a>
+    </div>
+    <div class="bottom center">
+        <div class="games">
+            <div class="game game__1">Игра 1</div>
+            <div class="game game__2">Игра 2</div>
+            <div class="game game__3">Игра 3</div>
+        </div>
+    </div>
+    <div class="firstgame center">
+        <div class="firstgame__content">
+            <h1 class="firstgame__title">Времена года</h1>
+            <p class="firstgame__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+            <button onclick="eighthEx(prompt('Введи число от 1 до 12'));" class="firstgame__link">Играть!</button>
+        </div>
+        <img class="firstgame__img" src="img/firstgameimg.svg" alt="Картинка для первой игры">
+    </div>
+    <div class="secondgame center">
+        <img class="secondgame__img" src="img/secondgameimg.svg" alt="Картинка для второй игры">
+        <div class="secondgame__content">
+            <h1 class="secondgame__title">Запомни слова</h1>
+            <p class="secondgame__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+            <button onclick="whichFruits(fruits)" class="secondgame__link">Играть</button>
+        </div>
+    </div>
+    <div class="thirdgame center">
+        <div class="thirdgame__content">
+            <h1 class="thirdgame__title">Игра в загадки</h1>
+            <p class="thirdgame__text">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+            <button onclick="puzzle()" class="thirdgame__link">Играть!</button>
+        </div>
+    </div>
+    <footer class="footer center">
+        <p class="footer__text">Все права защищены</p>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>

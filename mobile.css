@@ -1,0 +1,129 @@
+@media (max-width: 767px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        padding-top: 239px;
+        height: 496px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url(img/topbgmob.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 33%;
+    }
+
+    .top__title {
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+    }
+
+    .top__text {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .bottom {
+        height: 1221px;
+    }
+
+    .game {
+        width: 343px;
+        padding-left: 16px;
+    }
+
+    .firstgame {
+        max-height: 654px;
+        gap: 0px;
+    }
+
+    .firstgame__content {
+        padding-top: 51px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstgame__title {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .firstgame__title::after {
+        content: none;
+    }
+
+    .firstgame__text {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .firstgame__img {
+        width: 344px;
+        height: 236px;
+        padding-top: 0px;
+    }
+
+    .secondgame {
+        max-height: 654px;
+        gap: 0px;
+        flex-direction: column-reverse;
+    }
+
+    .secondgame__content {
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .secondgame__title {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .secondgame__text {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .secondgame__img {
+        width: 344px;
+        height: 231px;
+        padding-top: 64px;
+        padding-bottom: 90px;
+    }
+
+    .thirdgame {
+        max-height: 800px;
+        background-image: url(img/bottombgmob.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 33%;
+    }
+
+    .thirdgame__content {
+        justify-content: flex-start;
+    }
+
+    .thirdgame__title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .thirdgame__text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+}
